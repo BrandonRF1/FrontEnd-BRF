@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido Pasteleria</title>
+
+</head>
+<body>
+
+    <h1>Aqui puede hacer su pedido</h1>
+
+    <form action="pedido.js">
+
+        <hr>
+
+        <label for="Nombre">Danos tu nombre</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
+
+        <label for="correo1">Danos tu Correo</label><br>
+        <input type="email" id="correo1" name="correo1"> <br><br>
+
+        <label for="Telefono">Danos tu Numero Telefonico</label><br>
+        <input type="tel" id="Telefono" name="Telefono" maxlength="10" placeholder="Numero">
+
+        <br><br><hr>
+
+        <p>¿De que va hacer su pastel?</p>
+
+        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate"> 
+        <label for="Chocolate">Chocolate</label>
+        <input type="number" id="Chocolatecuantos" name="Chocolatecuantos" placeholder="cuantos?"> 
+
+        <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla"> 
+        <label for="Vainilla">Vainilla y Rompope</label>
+        <input type="number" id="Vainillacuantos" name="Vainillacuantos" placeholder="cuantos?"> <br><br>
+
+        <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla"> 
+        <label for="Vainilla">Cafe con Chocolate</label>
+        <input type="number" id="Vainillacuantos" name="Vainillacuantos" placeholder="cuantos?"> 
+
+        <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla"> 
+        <label for="Vainilla">Zarzamora con queso</label>
+        <input type="number" id="Vainillacuantos" name="Vainillacuantos" placeholder="cuantos?"> <br> <br>
+
+        <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla"> 
+        <label for="Vainilla">Napolitano</label>
+        <input type="number" id="Vainillacuantos" name="Vainillacuantos" placeholder="cuantos?"> 
+
+        <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla"> 
+        <label for="Vainilla">Fresa con frutas </label>
+        <input type="number" id="Vainillacuantos" name="Vainillacuantos" placeholder="cuantos?"> <br> <br>
+
+        <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla"> 
+        <label for="Vainilla">Limon</label>
+        <input type="number" id="Vainillacuantos" name="Vainillacuantos" placeholder="cuantos?"> <br>
+
+        <hr>
+
+        <p>¿Entrega a Domicilio?</p>
+        <input type="radio" id="si" name="aquiollevar" value="si"> 
+        <label for="si">Si, Por favor</label><br>
+        <input type="radio" id="no" name="aquiollevar" value="no"> 
+        <label for="no">No, Gracias</label><br>
+
+        <hr>
+
+        
+
+        <p>¿Que va a llevar de tomar?</p>
+        <select name="refresco" id="refresco">
+            <option value="Malteada_Chocolate">Malteada de Chocolate</option>
+            <option value="Malteada_Fresa">Malteada de Fresa</option>
+            <option value="Malteada_Vainilla">Malteada de Vainilla</option>
+            <option value="Malteada_Oreo">Malteada de Oreo</option>
+            <option value="Malteada_Coco">Malteada de Coco</option>
+            <option value="Malteada_Cafe">Malteada de Cafe</option>
+            
+        </select>
+
+        <br><br>
+
+        <input type="reset"> <br><br>
+        
+        <input type="button" id="boton1" name="boton1" value="Enviar pedido" + 
+        onclick="alert('Su pedido se realizo con exito, Muchas Gracias');"><br><br>
+
+        <br><br>
+
+    </form>
+    
+
+
+
+
+    
+</body>
+</html>
